@@ -1,3 +1,6 @@
+let m=prompt("enter the value of m:" );
+let n=prompt("enter the value of n:");
+
 function sumOfCubes(m,n){
     if(m>n)
 {
@@ -10,4 +13,5 @@ for(let i=m;i<=n;i++){
     return sum;
 
 }
-console.log(sumOfCubes(2,4));
+console.log(sumOfCubes(m,n));
+
